@@ -7,7 +7,7 @@
         <link rel="stylesheet" href="main.css" />
         <link rel="icon" type="image/x-icon" href="/images/favicon.png" />
     </head>
-    <body>
+    <body class="overflow-x-hidden">
         <!-- NavBar -->
         <nav class="bg-deepBlue">
             <div class="w-[1080px] mx-auto flex gap-2 justify-between">
@@ -127,11 +127,438 @@
                     <img src="images/hero-illustration.jpg" alt="" />
                 </div>
             </div>
+            <div class="absolute w-[101%]">
+                <img
+                    src="images/hero-shape.svg"
+                    alt=""
+                    class="w-full object-fill"
+                />
+            </div>
+        </section>
+
+        <!-- Suite Section -->
+
+        <section class="relative mt-32 overflow-hidden">
             <img
-                src="images/hero-shape.svg"
+                src="images/feature-section1-dottedrows.png"
                 alt=""
-                class="absolute -bottom-28 w-full scale-x-105"
+                class="absolute -top-32 left-40"
             />
+            <img
+                src="images/feature-section1-dottedrows.png"
+                alt=""
+                class="absolute top-10 right-0 rotate-180 -z-10"
+            />
+            <div class="font-mullish w-[1080px] mx-auto">
+                <h2 class="text-center text-2xl font-extrabold">
+                    Accept Payments with Razorpay Payment Suite
+                </h2>
+                <div class="w-8 h-1.5 mt-1.5 bg-greenLight mx-auto"></div>
+                <!-- Content Box -->
+                <div
+                    class="min-h-[520px] mt-20 border flex flow-row border-gray-300 rounded-md bg-white relative p-12"
+                >
+                    <!-- Left Part -->
+                    <div>
+                        <h2 class="text-[28px] font-bold w-[55%]">
+                            Supercharge your business with the all-powerful
+                            <span class="text-lightBlue">Payment Gateway</span>
+                        </h2>
+                        <ul class="mt-12 inline-block space-y-2">
+                            <li>
+                                <i
+                                    class="fa-solid fa-check text-greenLight text-[20px] pr-2"
+                                ></i
+                                ><span class="">100+ Payment Methods</span>
+                            </li>
+                            <li>
+                                <i
+                                    class="fa-solid fa-check text-greenLight text-[20px] pr-2"
+                                ></i
+                                ><span>Industry Leading Success Rate</span>
+                            </li>
+                            <li>
+                                <i
+                                    class="fa-solid fa-check text-greenLight text-[20px] pr-2"
+                                ></i
+                                ><span>Superior Checkout Experience</span>
+                            </li>
+                            <li>
+                                <i
+                                    class="fa-solid fa-check text-greenLight text-[20px] pr-2"
+                                ></i
+                                ><span>Easy to Integrate</span>
+                            </li>
+                            <li>
+                                <i
+                                    class="fa-solid fa-check text-greenLight text-[20px] pr-2"
+                                ></i
+                                ><span>Instant Settlements from day 1</span>
+                            </li>
+                            <li>
+                                <i
+                                    class="fa-solid fa-check text-greenLight text-[20px] pr-2"
+                                ></i
+                                ><span>In-depth Reporting and Insights</span>
+                            </li>
+                        </ul>
+                        <div class="mt-12">
+                            <button
+                                class="px-5 py-4 text-white bg-lightBlue transition rounded-md font-semibold hover:bg-lightBlue500"
+                            >
+                                Sign Up Now
+                                <i
+                                    class="fa-solid fa-arrow-right text-sm ml-2"
+                                ></i>
+                            </button>
+                            <button
+                                class="font-bold text-lightBlue ml-3 hover:text-lightBlue500"
+                            >
+                                Know More
+                                <i
+                                    class="fa-solid fa-caret-right relative top-0.5"
+                                ></i>
+                            </button>
+                        </div>
+                    </div>
+                    <!-- Right part -->
+                    <img
+                        src="images/payment-suite.png"
+                        alt=""
+                        class="max-w-[600px] absolute right-0 top-0"
+                    />
+                </div>
+
+                <!-- Payment cards -->
+                <div class="grid grid-cols-3 my-10 gap-4">
+                    <!-- card 1 -->
+                    <div
+                        class="relative flex flex-col gap-1 group cursor-pointer"
+                    >
+                        <img
+                            src="images/payment-link-icon.svg"
+                            alt=""
+                            class="absolute right-1 top-3 -z-10 bg-lightBlue w-[55px] rounded-full"
+                        />
+                        <img
+                            src="images/features-wave.svg"
+                            alt=""
+                            class="absolute w-[80px] right-0 bottom-5 hidden group-hover:block"
+                        />
+                        <svg
+                            viewBox="0 0 349.32501220703125 225"
+                            xmlns="http://www.w3.org/2000/svg"
+                            preserveAspectRatio="none"
+                            class="stroke-1 stroke-[#818597] absolute h-full w-full -z-[9] transition-all duration-200 group-hover:stroke-slate-600"
+                            style="stroke-opacity: 0.15"
+                        >
+                            <path
+                                d="m 0 6 
+                    a 6 6 0 0 1 6 -6 
+                    h 250.32501220703125 
+                    a 16 16 0 0 1 11 5 
+                    l 77 77 
+                    a 16 16 0 0 1 5 11 
+                    v 126 
+                    a 6 6 0 0 1 -6 6 
+                    h -337.32501220703125 
+                    a 6 6 0 0 1 -6 -6 
+                    z"
+                                fill="#fff"
+                            ></path>
+                        </svg>
+                        <!-- content -->
+                        <div class="m-6">
+                            <h2 class="text-2xl font-bold">Payment Links</h2>
+                            <p class="mt-6 opacity-70">
+                                Share payment link via an email, SMS, messenger,
+                                chatbot etc. and get paid immediately
+                            </p>
+                        </div>
+                        <!-- Button -->
+                        <button
+                            class="font-bold text-lightBlue m-6 hover:text-lightBlue500 text-left"
+                        >
+                            Know More
+                            <i
+                                class="fa-solid fa-caret-right relative top-0.5"
+                            ></i>
+                        </button>
+                    </div>
+                    <!-- card 2 -->
+                    <div
+                        class="relative flex flex-col gap-1 group cursor-pointer"
+                    >
+                        <img
+                            src="images/payment-pages-icon.svg"
+                            alt=""
+                            class="absolute right-1 top-3 -z-10 bg-lightBlue w-[55px] rounded-full"
+                        />
+                        <img
+                            src="images/features-wave.svg"
+                            alt=""
+                            class="absolute w-[80px] right-0 bottom-5 hidden group-hover:block"
+                        />
+                        <svg
+                            viewBox="0 0 349.32501220703125 225"
+                            xmlns="http://www.w3.org/2000/svg"
+                            preserveAspectRatio="none"
+                            class="stroke-1 stroke-[#818597] absolute h-full w-full -z-[9] transition-all duration-200 group-hover:stroke-slate-600"
+                            style="stroke-opacity: 0.15"
+                        >
+                            <path
+                                d="m 0 6 
+                    a 6 6 0 0 1 6 -6 
+                    h 250.32501220703125 
+                    a 16 16 0 0 1 11 5 
+                    l 77 77 
+                    a 16 16 0 0 1 5 11 
+                    v 126 
+                    a 6 6 0 0 1 -6 6 
+                    h -337.32501220703125 
+                    a 6 6 0 0 1 -6 -6 
+                    z"
+                                fill="#fff"
+                            ></path>
+                        </svg>
+                        <!-- content -->
+                        <div class="m-6">
+                            <h2 class="text-2xl font-bold">Payment Pages</h2>
+                            <p class="mt-6 opacity-70">
+                                Take your store online instantly with zero
+                                coding. Accept international & domestic payments
+                            </p>
+                        </div>
+                        <!-- Button -->
+                        <button
+                            class="font-bold text-lightBlue m-6 hover:text-lightBlue500 text-left"
+                        >
+                            Know More
+                            <i
+                                class="fa-solid fa-caret-right relative top-0.5"
+                            ></i>
+                        </button>
+                    </div>
+                    <!-- card 3 -->
+                    <div
+                        class="relative flex flex-col gap-1 group cursor-pointer"
+                    >
+                        <img
+                            src="images/payment-buttons-icon.svg"
+                            alt=""
+                            class="absolute right-1 top-3 -z-10 bg-lightBlue w-[55px] rounded-full"
+                        />
+                        <img
+                            src="images/features-wave.svg"
+                            alt=""
+                            class="absolute w-[80px] right-0 bottom-5 hidden group-hover:block"
+                        />
+                        <svg
+                            viewBox="0 0 349.32501220703125 225"
+                            xmlns="http://www.w3.org/2000/svg"
+                            preserveAspectRatio="none"
+                            class="stroke-1 stroke-[#818597] absolute h-full w-full -z-[9] transition-all duration-200 group-hover:stroke-slate-600"
+                            style="stroke-opacity: 0.15"
+                        >
+                            <path
+                                d="m 0 6 
+                    a 6 6 0 0 1 6 -6 
+                    h 250.32501220703125 
+                    a 16 16 0 0 1 11 5 
+                    l 77 77 
+                    a 16 16 0 0 1 5 11 
+                    v 126 
+                    a 6 6 0 0 1 -6 6 
+                    h -337.32501220703125 
+                    a 6 6 0 0 1 -6 -6 
+                    z"
+                                fill="#fff"
+                            ></path>
+                        </svg>
+                        <!-- content -->
+                        <div class="m-6">
+                            <h2 class="text-2xl font-bold">Payment Buttons</h2>
+                            <p class="mt-6 opacity-70">
+                                Create, Copy & Collect With Payment Button.
+                                Collect one time or subscription payments & more
+                            </p>
+                        </div>
+                        <!-- Button -->
+                        <button
+                            class="font-bold text-lightBlue m-6 hover:text-lightBlue500 text-left"
+                        >
+                            Know More
+                            <i
+                                class="fa-solid fa-caret-right relative top-0.5"
+                            ></i>
+                        </button>
+                    </div>
+                    <!-- card 4 -->
+                    <div
+                        class="relative flex flex-col gap-1 group cursor-pointer"
+                    >
+                        <img
+                            src="images/subscriptions-icon.svg"
+                            alt=""
+                            class="absolute right-1 top-3 -z-10 bg-lightBlue w-[55px] rounded-full"
+                        />
+                        <img
+                            src="images/features-wave.svg"
+                            alt=""
+                            class="absolute w-[80px] right-0 bottom-5 hidden group-hover:block"
+                        />
+                        <svg
+                            viewBox="0 0 349.32501220703125 225"
+                            xmlns="http://www.w3.org/2000/svg"
+                            preserveAspectRatio="none"
+                            class="stroke-1 stroke-[#818597] absolute h-full w-full -z-[9] transition-all duration-200 group-hover:stroke-slate-600"
+                            style="stroke-opacity: 0.15"
+                        >
+                            <path
+                                d="m 0 6 
+                    a 6 6 0 0 1 6 -6 
+                    h 250.32501220703125 
+                    a 16 16 0 0 1 11 5 
+                    l 77 77 
+                    a 16 16 0 0 1 5 11 
+                    v 126 
+                    a 6 6 0 0 1 -6 6 
+                    h -337.32501220703125 
+                    a 6 6 0 0 1 -6 -6 
+                    z"
+                                fill="#fff"
+                            ></path>
+                        </svg>
+                        <!-- content -->
+                        <div class="m-6">
+                            <h2 class="text-2xl font-bold">Subscription</h2>
+                            <p class="mt-6 opacity-70">
+                                Subscription plans with automated recurring
+                                transactions on various payment modes.
+                            </p>
+                        </div>
+                        <!-- Button -->
+                        <button
+                            class="font-bold text-lightBlue m-6 hover:text-lightBlue500 text-left"
+                        >
+                            Know More
+                            <i
+                                class="fa-solid fa-caret-right relative top-0.5"
+                            ></i>
+                        </button>
+                    </div>
+                    <!-- card 5 -->
+                    <div
+                        class="relative flex flex-col gap-1 group cursor-pointer"
+                    >
+                        <img
+                            src="images/route-icon.svg"
+                            alt=""
+                            class="absolute right-1 top-3 -z-10 bg-lightBlue w-[55px] rounded-full"
+                        />
+                        <img
+                            src="images/features-wave.svg"
+                            alt=""
+                            class="absolute w-[80px] right-0 bottom-5 hidden group-hover:block"
+                        />
+                        <svg
+                            viewBox="0 0 349.32501220703125 225"
+                            xmlns="http://www.w3.org/2000/svg"
+                            preserveAspectRatio="none"
+                            class="stroke-1 stroke-[#818597] absolute h-full w-full -z-[9] transition-all duration-200 group-hover:stroke-slate-600"
+                            style="stroke-opacity: 0.15"
+                        >
+                            <path
+                                d="m 0 6 
+                    a 6 6 0 0 1 6 -6 
+                    h 250.32501220703125 
+                    a 16 16 0 0 1 11 5 
+                    l 77 77 
+                    a 16 16 0 0 1 5 11 
+                    v 126 
+                    a 6 6 0 0 1 -6 6 
+                    h -337.32501220703125 
+                    a 6 6 0 0 1 -6 -6 
+                    z"
+                                fill="#fff"
+                            ></path>
+                        </svg>
+                        <!-- content -->
+                        <div class="m-6">
+                            <h2 class="text-2xl font-bold">Route</h2>
+                            <p class="mt-6 opacity-70">
+                                Split incoming payments auto- matically to
+                                vendor’s accounts, manage marketplace money
+                                flow...
+                            </p>
+                        </div>
+                        <!-- Button -->
+                        <button
+                            class="font-bold text-lightBlue m-6 hover:text-lightBlue500 text-left"
+                        >
+                            Know More
+                            <i
+                                class="fa-solid fa-caret-right relative top-0.5"
+                            ></i>
+                        </button>
+                    </div>
+                    <!-- card 6 -->
+                    <div
+                        class="relative flex flex-col gap-1 group cursor-pointer"
+                    >
+                        <img
+                            src="images/smart-collect-icon.svg"
+                            alt=""
+                            class="absolute right-1 top-3 -z-10 bg-lightBlue w-[55px] rounded-full"
+                        />
+                        <img
+                            src="images/features-wave.svg"
+                            alt=""
+                            class="absolute w-[80px] right-0 bottom-5 hidden group-hover:block"
+                        />
+                        <svg
+                            viewBox="0 0 349.32501220703125 225"
+                            xmlns="http://www.w3.org/2000/svg"
+                            preserveAspectRatio="none"
+                            class="stroke-1 stroke-[#818597] absolute h-full w-full -z-[9] transition-all duration-200 group-hover:stroke-slate-600"
+                            style="stroke-opacity: 0.15"
+                        >
+                            <path
+                                d="m 0 6 
+                    a 6 6 0 0 1 6 -6 
+                    h 250.32501220703125 
+                    a 16 16 0 0 1 11 5 
+                    l 77 77 
+                    a 16 16 0 0 1 5 11 
+                    v 126 
+                    a 6 6 0 0 1 -6 6 
+                    h -337.32501220703125 
+                    a 6 6 0 0 1 -6 -6 
+                    z"
+                                fill="#fff"
+                            ></path>
+                        </svg>
+                        <!-- content -->
+                        <div class="m-6">
+                            <h2 class="text-2xl font-bold">Smart Collect</h2>
+                            <p class="mt-6 opacity-70">
+                                Automatically reconcile incoming NEFT, RTGS,
+                                IMPS, UPI payments using Virtual Accounts &
+                                UPI-IDs
+                            </p>
+                        </div>
+                        <!-- Button -->
+                        <button
+                            class="font-bold text-lightBlue m-6 hover:text-lightBlue500 text-left"
+                        >
+                            Know More
+                            <i
+                                class="fa-solid fa-caret-right relative top-0.5"
+                            ></i>
+                        </button>
+                    </div>
+                </div>
+            </div>
         </section>
 
         <script
