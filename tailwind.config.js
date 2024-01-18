@@ -17,9 +17,25 @@ module.exports = {
                 grayBlue: "#344a6c",
                 deepBlueHead: "#162f56",
                 gray2: "#525a76",
+                gray3: "#f5f8fe",
             },
             backgroundImage: {
                 "feature-section": "url('/images/feature-section-2BG.svg')",
+                "gradient-Shade": "linear-gradient(180deg, #f4f8ff, #fff0)",
+                "gradient-Shade-reverse":
+                    "linear-gradient(0deg, #f4f8ff, #fff0)",
+            },
+            backgroundSize: {
+                100: "100% 100%",
+            },
+            animation: {
+                "scroll-md": "10s linear infinite scroll",
+            },
+            keyframes: {
+                scroll: {
+                    "0%": { top: "0" },
+                    "100%": { top: "-50%" },
+                },
             },
         },
     },
